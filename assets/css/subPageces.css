@@ -1,0 +1,1026 @@
+@font-face {
+  font-family: "Chillax-Variable";
+  src: url("../font-family/Chillax-Variable.woff2") format("opentype");
+}
+
+@font-face {
+  font-family: "Chillax-Semibold";
+  src: url("../font-family/Chillax-Semibold.woff2") format("opentype");
+}
+
+@font-face {
+  font-family: "Chillax-Regular";
+  src: url("../font-family/Chillax-Regular.woff2") format("opentype");
+}
+
+@font-face {
+  font-family: "Chillax-Medium";
+  src: url("../font-family/Chillax-Medium.woff2") format("opentype");
+}
+
+@font-face {
+  font-family: "Chillax-Light";
+  src: url("../font-family/Chillax-Light.woff2") format("opentype");
+}
+
+@font-face {
+  font-family: "Chillax-Extralight";
+  src: url("../font-family/Chillax-Extralight.woff2") format("opentype");
+}
+
+@font-face {
+  font-family: "Chillax-Bold";
+  src: url("../font-family/Chillax-Bold.woff2") format("opentype");
+}
+
+@font-face {
+  font-family: "SofiaProLight";
+  src: url("../font-family/SofiaProLight.woff2") format("opentype");
+}
+
+.about {
+  margin-top: 116px;
+  padding-top: 150px;
+}
+
+.about .hoodArea h6 {
+  font-family: "Chillax-Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 135.5%;
+  color: #5680d7;
+}
+
+.about .hoodArea .where {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+}
+
+.about .aboutusText h6 {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 135.5%;
+  color: #ffffff;
+}
+
+.about .aboutusText p {
+  margin: 26px 0px;
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.about .aboutusBootom {
+  margin: 100px 0px;
+}
+
+.about .aboutusBootom h6 {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 67px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.about .aboutusBootom h6 span {
+  color: #73a6f2;
+}
+
+.about .aboutusBootom p {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.faq {
+  margin-top: 167px;
+}
+
+.faq .row .faHood {
+  margin-top: 150px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.faq .row .faHood p {
+  font-family: "SofiaProLight";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  color: #ffffff;
+}
+
+.faq .row .subTitle p {
+  font-family: "SofiaProLight";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 135.5%;
+  color: #5680d7;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.faq .specialRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+}
+
+.faq .specialRow .accordion-container {
+  position: relative;
+  width: 100%;
+  outline: 0;
+  cursor: pointer;
+  margin-bottom: 100px !important;
+}
+
+.faq .specialRow .accordion-container .article-title {
+  display: block;
+  position: relative;
+  margin: 30px 0px;
+  padding: 0.625em 0.625em 0.625em 4em;
+  font-size: 1.25em;
+  font-weight: normal;
+  color: white;
+  cursor: pointer;
+}
+
+.faq .specialRow .accordion-container .content-entry i {
+  top: -2px;
+  position: absolute;
+  left: 12px;
+  font-style: normal;
+  width: 60px;
+  height: 60px;
+  font-size: 1.625em;
+  position: absolute;
+  color: white;
+  left: 0px;
+  background-color: rgba(7, 14, 29, 0.3);
+  color: white;
+  border-radius: 17px;
+}
+
+.faq .specialRow .accordion-container .content-entry i:before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 20px;
+  background-image: url("../img/icon/plus.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  content: " ";
+  height: 20px;
+}
+
+.faq .specialRow .accordion-container .content-entry.open i:before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 20px;
+  background-image: url("../img/icon/minus.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  content: " ";
+  height: 20px;
+}
+
+.faq .specialRow .accordion-content {
+  display: none;
+  border-bottom: 1px solid #5d7dec;
+  color: white;
+}
+
+.faq .specialRow #content {
+  width: 100%;
+}
+
+.faq .specialRow .accordion-container,
+.faq .specialRow #description {
+  width: 90%;
+  margin: 1.875em auto;
+}
+
+.faq .specialRow #description p {
+  line-height: 1.5;
+}
+
+.faq .specialRow #description h2 {
+  text-align: center;
+}
+
+@media all and (min-width: 860px) {
+  .faq .specialRow #content {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+.blog {
+  margin-top: 167px;
+  padding: 100px 0px;
+}
+
+.blog .hoodArea h6 {
+  font-family: "Chillax-Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 135.5%;
+  color: #5680d7;
+}
+
+.blog .hoodArea .where {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+  margin-bottom: 50px !important;
+}
+
+.blog .col-md-6 .BlogCard .cardHood img {
+  width: 100%;
+}
+
+.blog .col-md-6 .BlogCard .cardBottom {
+  min-height: 250px !important;
+  margin-bottom: 20px;
+  padding: 5px;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7480ee), to(#131e7c));
+  background: linear-gradient(180deg, #7480ee 0%, #131e7c 100%);
+  border-radius: 0px 0px 17px 17px;
+}
+
+.blog .col-md-6 .BlogCard .cardBottom p:first-child {
+  font-family: "Chillax-Semibold";
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.blog .col-md-6 .BlogCard .cardBottom p:nth-child(2) {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.blog .col-md-6 .BlogCard .readButton {
+  text-align: center;
+}
+
+.blog .col-md-6 .BlogCard .readButton button {
+  font-family: "Chillax-Semibold";
+  border: 0px;
+  outline: 0px;
+  background: #183292;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 30px;
+}
+
+.blog .col-md-6:last-child {
+  margin-bottom: 200px;
+}
+
+.blogArea {
+  margin-top: 167px;
+  padding: 100px 0px;
+}
+
+.blogArea .hoodArea h6 {
+  font-family: "Chillax-Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 135.5%;
+  color: #5680d7;
+}
+
+.blogArea .hoodArea .where {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+  margin-bottom: 50px !important;
+}
+
+.blogArea .cardArea {
+  text-align: center;
+}
+
+.blogArea .cardArea img {
+  border: 3px solid #6d79e8;
+  border-radius: 17px;
+}
+
+.blogArea .cardBottom {
+  background: -webkit-gradient(linear, left top, left bottom, from(#7480ee), to(#131e7c));
+  background: linear-gradient(180deg, #7480ee 0%, #131e7c 100%);
+  border-radius: 17px;
+  border-radius: 17px;
+  padding: 0px 30px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+.blogArea .cardBottom p:first-child {
+  font-family: "Chillax-Semibold";
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.blogArea .cardBottom p:nth-child(2) {
+  font-family: "Chillax-Semibold";
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+}
+
+.errorPage {
+  margin-top: 167px;
+}
+
+.errorPage .hoodArea p:first-child {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  color: #5680d7;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.errorPage .hoodArea p:nth-child(2) {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+  background: linear-gradient(103.13deg, #ec6969 24.33%, #780a0a 90.26%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.errorPage .hoodArea p:nth-child(3) {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  margin-bottom: 100px;
+}
+
+.errorPage .hoodArea p:nth-child(3) span {
+  color: #ec6969;
+}
+
+.errorPage .backContact {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.errorPage .backContact a:first-child button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#7480ee), to(#131e7c));
+  background: linear-gradient(180deg, #7480ee 0%, #131e7c 100%);
+  border-radius: 17px;
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  color: white;
+  border: 0px;
+  outline: 0px;
+  width: 230px;
+}
+
+.errorPage .backContact a:nth-child(2) button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#7480ee), to(#131e7c));
+  background: linear-gradient(180deg, #7480ee 0%, #131e7c 100%);
+  border-radius: 17px;
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+  border: 0px;
+  outline: 0px;
+  width: 230px;
+}
+
+.errorPage .textArea {
+  text-align: -webkit-center;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align-last: center;
+}
+
+.errorPage .textArea textarea {
+  background-color: rgba(31, 41, 137, 0.3);
+  border-radius: 17px;
+  color: white;
+  border: 3px solid #5680d7 #012162;
+  margin-top: 50px;
+  height: 231px;
+  width: 600px;
+  text-align-last: start;
+  padding: 20px;
+}
+
+.errorPage .textArea .buttonSpecial {
+  width: 600px;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.errorPage .textArea .buttonSpecial button {
+  font-family: "Chillax-Semibold";
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7480ee), to(#131e7c));
+  background: linear-gradient(180deg, #7480ee 0%, #131e7c 100%);
+  border-radius: 17px;
+  border: 0px !important;
+  outline: 0px !important;
+  color: #ffffff;
+  width: 200px;
+  margin-top: 24px;
+  margin-bottom: 100px;
+  position: absolute;
+  right: 0px;
+}
+
+.ecosystem {
+  margin-top: 167px;
+}
+
+.ecosystem .hoodArea h6:first-child {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  color: #5680d7;
+  text-align: start;
+  margin-top: 100px;
+}
+
+.ecosystem .hoodArea .hoodTwo {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.ecosystem .hoodArea .text {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  width: 400px;
+  margin-bottom: 100px;
+}
+
+.ecosystem .col-md-6 {
+  margin-bottom: 20px;
+  display: block;
+  text-align: right;
+}
+
+.ecosystem .col-md-6 .uploadFile {
+  cursor: url("../img//icon/underProcess.png") 0 0, default;
+  border-radius: 17px;
+  border: 1px solid #5680d7;
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px;
+  width: 400px;
+}
+
+.ecosystem .col-md-6 .uploadFile p {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.ecosystem .col-md-6 .uploadFile button {
+  cursor: url("../img//icon/underProcess.png") 0 0, default;
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7480ee), to(#131e7c));
+  background: linear-gradient(180deg, #7480ee 0%, #131e7c 100%);
+  border-radius: 17px;
+  border: 0px;
+  outline: 0px;
+  width: 130px;
+  margin-top: 20px;
+}
+
+.ecosystem .col-md-6 .cardIconArea {
+  min-height: 300px;
+  position: relative;
+  width: 400px;
+  border: 1px solid #5680d7;
+  background: linear-gradient(117.42deg, #5986cb -2.54%, #1e4278 63.19%);
+  border-radius: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ecosystem .col-md-6 .cardIconArea img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.ecosystem .col-md-6 .cardIconArea .e1 {
+  width: 150px;
+  height: auto;
+}
+
+.ecosystem .col-md-6 .cardIconArea .e2 {
+  width: 150px;
+  height: auto;
+}
+
+.ecosystem .col-md-6 .cardIconArea .e3 {
+  width: 150px;
+  height: auto;
+}
+
+.ecosystem .col-md-6 .cardIconArea .e4 {
+  width: 80px;
+  height: auto;
+}
+
+.ecosystem .col-md-6 .cardIconArea .e5 {
+  width: 150px;
+  height: auto;
+}
+
+.ecosystem .col-md-6 .cardIconArea .e6 {
+  width: 150px;
+  height: auto;
+}
+
+.ecosystem .col-md-6 .cardIconArea .e7 {
+  width: 150px;
+  height: auto;
+}
+
+.ecosystem .col-md-6:first-child {
+  margin-bottom: 100px;
+}
+
+.ecosystem .col-md-6:nth-child(2) {
+  margin-bottom: 100px;
+  text-align: -webkit-right;
+}
+
+.ecosystem .col-md-6:nth-child(4) {
+  text-align: -webkit-right;
+}
+
+.ecosystem .col-md-6:nth-child(6) {
+  text-align: -webkit-right;
+}
+
+.ecosystem .col-md-6:nth-child(8) {
+  text-align: -webkit-right;
+}
+
+.ecosystem .col-md-6:nth-child(10) {
+  text-align: -webkit-right;
+}
+
+.ecosystem .col-md-6:last-child {
+  margin-bottom: 200px !important;
+}
+
+.contact {
+  margin-top: 167px;
+  padding: 100px 0px;
+}
+
+.contact .hoodArea h6 {
+  font-family: "Chillax-Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 135.5%;
+  color: #5680d7;
+}
+
+.contact .hoodArea .where {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+}
+
+.contact .hoodArea .littleP {
+  font-family: "Chillax-Semibold";
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-bottom: 50px !important;
+  width: 300px;
+}
+
+.contact form {
+  display: block;
+  text-align: -webkit-center;
+}
+
+.contact form .formAreas {
+  background: rgba(31, 41, 137, 0.3);
+  border-radius: 17px;
+  border: 2px solid #5680d7;
+  width: 800px;
+  padding: 20px;
+}
+
+.contact form .formAreas .formAreaOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact form .formAreas .formAreaOne input {
+  color: white;
+  background: #012162;
+  border-radius: 17px;
+  width: 100%;
+  padding: 8px 20px;
+  margin: 12px;
+  border: 1px solid #5680d7;
+}
+
+.contact form .formAreas .formAreaTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.contact form .formAreas .formAreaTwo input {
+  color: white;
+  background: #012162;
+  border-radius: 17px;
+  width: 100%;
+  padding: 8px 20px;
+  margin: 12px;
+  border: 1px solid #5680d7;
+}
+
+.contact form .formAreas .formAreaThree .textArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  padding: 0px 30px;
+}
+
+.contact form .formAreas .formAreaThree .textArea .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact form .formAreas .formAreaThree .textArea .number p {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.contact form .formAreas .formAreaThree .textArea .number span {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.contact form .formAreas .formAreaThree textarea {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  background: rgba(196, 196, 196, 0.33);
+  width: 100%;
+  height: 123px;
+  border-radius: 22px;
+  padding: 10px 20px;
+  text-align: start;
+}
+
+.contact form .buttonArea {
+  text-align: end;
+  width: 800px;
+  margin-top: 20px;
+}
+
+.contact form .buttonArea button {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  border: 0px;
+  outline: 0px;
+  color: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7480ee), to(#131e7c));
+  background: linear-gradient(180deg, #7480ee 0%, #131e7c 100%);
+  border-radius: 17px;
+  width: 148px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .faq {
+    margin-top: 116px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .faq {
+    margin-top: 116px;
+  }
+  .blog {
+    margin-top: 116px !important;
+  }
+  .blogArea {
+    margin-top: 116px;
+  }
+  .errorPage {
+    margin-top: 115px;
+  }
+  .ecosystem {
+    margin-top: 115px !important;
+  }
+  .ecosystem .col-md-6 .uploadFile {
+    width: 300px;
+  }
+  .ecosystem .col-md-6 .cardIconArea {
+    width: 300px !important;
+  }
+  .contact {
+    margin-top: 116px !important;
+  }
+  .contact form .formAreas .formAreaOne {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .about .hoodArea h6 {
+    font-size: 40px !important;
+  }
+  .about .aboutusText h6 {
+    font-size: 20px !important;
+  }
+  .ecosystem .col-md-6 .uploadFile {
+    width: 300px;
+  }
+  .ecosystem .col-md-6 .cardIconArea {
+    width: 300px !important;
+  }
+  .contact form .formAreas {
+    width: 100% !important;
+  }
+  .contact form .formAreas .formAreaOne {
+    display: block !important;
+  }
+  .contact form .formAreas .formAreaOne input {
+    margin: 14px 0px !important;
+  }
+  .contact form .formAreas .formAreaTwo {
+    display: block !important;
+  }
+  .contact form .formAreas .formAreaTwo input {
+    margin: 14px 0px !important;
+  }
+  .contact form .formAreas .formAreaThree {
+    display: block !important;
+    margin: 14px 0px !important;
+  }
+  .contact form .buttonArea {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about .aboutusText h6 {
+    font-size: 14px;
+  }
+  .errorPage {
+    margin-top: 95px;
+  }
+  .errorPage .textArea textarea {
+    width: 100% !important;
+  }
+  .errorPage .textArea .buttonSpecial {
+    width: 100% !important;
+  }
+  .ecosystem .col-md-6 {
+    text-align: -webkit-center;
+  }
+  .ecosystem .col-md-6:first-child {
+    text-align: -webkit-center;
+  }
+  .ecosystem .col-md-6:nth-child(2) {
+    margin-bottom: 20px !important;
+    text-align: -webkit-center;
+  }
+  .ecosystem .col-md-6:nth-child(3) {
+    text-align: -webkit-center;
+  }
+  .ecosystem .col-md-6:nth-child(4) {
+    text-align: -webkit-center;
+  }
+  .ecosystem .col-md-6:nth-child(6) {
+    text-align: -webkit-center;
+  }
+  .ecosystem .col-md-6:nth-child(8) {
+    text-align: -webkit-center;
+  }
+  .ecosystem .col-md-6:nth-child(10) {
+    text-align: -webkit-center;
+  }
+  .ecosystem .col-md-6:last-child {
+    margin-bottom: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .blog {
+    margin-top: 95px !important;
+  }
+  .about {
+    margin-top: 95px;
+  }
+  .about .aboutusText h6 {
+    font-size: 14px;
+  }
+  .about .aboutusText p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .about .aboutusBootom h6 {
+    font-size: 30px !important;
+    line-height: 39px !important;
+  }
+  .about .aboutusBootom p {
+    font-size: 18px !important;
+    line-height: 26px !important;
+  }
+  .faq {
+    margin-top: 95px;
+  }
+  .blogArea {
+    margin-top: 95px !important;
+  }
+  .errorPage {
+    margin-top: 95px;
+  }
+  .ecosystem {
+    margin-top: 95px !important;
+  }
+  .ecosystem .hoodArea .text {
+    width: 100% !important;
+  }
+  .ecosystem .col-md-6 .uploadFile {
+    width: 100%;
+  }
+  .ecosystem .col-md-6 .cardIconArea {
+    width: 100% !important;
+  }
+  .ecosystem .col-md-6:nth-child(2) {
+    margin-bottom: 20px;
+  }
+  .contact {
+    margin-top: 96px !important;
+  }
+  .contact form .formAreas .formAreaOne {
+    display: block !important;
+  }
+  .contact form .formAreas .formAreaOne input {
+    margin: 14px 0px !important;
+  }
+  .contact form .formAreas .formAreaTwo {
+    display: block !important;
+  }
+  .contact form .formAreas .formAreaTwo input {
+    margin: 14px 0px !important;
+  }
+  .contact form .formAreas .formAreaThree {
+    margin: 14px 0px !important;
+    display: block !important;
+  }
+}
+/*# sourceMappingURL=subPageces.css.map */
