@@ -593,9 +593,9 @@ $(document).ready(function () {
         height: 500,
       },
     },
-    tradeDydxExchange: {
-      title: "trade.dydx.exchange",
-      name: "trade.dydx.exchange",
+    dydxExchange: {
+      title: "dydx.exchange",
+      name: "dydx.exchange",
       centre: "decentralized",
       addImgClass: "dydx",
       hoodClass: "cbEight",
