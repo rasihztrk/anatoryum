@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ANATOLİA</title>
-  <link rel="shortcut icon" type="image/jpg" href="./assets/img/icon/logoFI.png"/>
+  <link rel="shortcut icon" type="image/jpg" href="./assets/img/icon/logoFI.png" />
   <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <?php require_once './layers/header.php';?>
+  <?php require_once './layers/header.php'; ?>
   <section class="mainArea">
     <div class="container-lg">
       <div class="row">
@@ -25,7 +25,7 @@
             <p>Create any financial market on Anatolia Protocol’s fast, cross-chain, low free, secure, and fully
               decentralized exchange protocol.</p>
             <div class="buttonArea">
-                <button class="tradeOn">Trade on Anatolia Protocol</button>
+              <button class="tradeOn">Trade on Anatolia Protocol</button>
               <a href="">
                 <button>Join Discord</button>
               </a>
@@ -135,13 +135,15 @@
           </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 cardMainArea mt-5 mt-md-0">
-          <div class="cardArea">
-            <div class="items">
-              <img src="./assets/img/icon/community.png" alt="">
-              <h6>Community</h6>
-              <p>users.</p>
+          <a href="#socialArea">
+            <div class="cardArea">
+              <div class="items">
+                <img src="./assets/img/icon/community.png" alt="">
+                <h6>Community</h6>
+                <p>users.</p>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-12 col-sm-8">
           <div class="textArea">
@@ -155,8 +157,8 @@
         </div>
         <div class="col-12 buttonTwo">
           <div class="buttonArea">
-            <a href="">
-              <button>Buy now</button>
+            <a href="./#mainArea">
+              <button class="tradeOn goUpBuy">Buy now</button>
             </a>
             <a href="">
               <button>Explorers</button>
@@ -453,12 +455,12 @@
       </div>
     </div>
   </section>
-  <?php include './layers/footer.php';?>
+  <?php include './layers/footer.php'; ?>
 </body>
 <script src="./assets/js/jquery-3.6.0.min.js"></script>
 <script src="./assets/js/owl.carousel.min.js"></script>
 <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="./assets/js/main.js"></script>
+<script src="./assets/js/main.js?v=12"></script>
 <script type="text/javascript">
 
 </script>

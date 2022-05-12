@@ -75,29 +75,29 @@ $(document).ready(function () {
   });
 
   $(".area").mouseenter(function () {
-    $(".discort", this).attr("src", "../anatolia/assets/img/icon/discortB.png");
+    $(".discort", this).attr("src", "./assets/img/icon/discortB.png");
     $("p", this).css("color", "#7C89FF");
   });
 
   $(".area").mouseleave(function () {
-    $(".discort", this).attr("src", "../anatolia/assets/img/icon/discort.png");
+    $(".discort", this).attr("src", "./assets/img/icon/discort.png");
     $("p", this).css("color", "white");
   });
 
   $(".area").mouseenter(function () {
-    $(".twitter", this).attr("src", "../anatolia/assets/img/icon/twitterB.png");
+    $(".twitter", this).attr("src", "./assets/img/icon/twitterB.png");
     $("p", this).css("color", "#7C89FF");
   });
 
   $(".area").mouseleave(function () {
-    $(".twitter", this).attr("src", "../anatolia/assets/img/icon/twitter.png");
+    $(".twitter", this).attr("src", "./assets/img/icon/twitter.png");
     $("p", this).css("color", "white");
   });
 
   $(".area").mouseenter(function () {
     $(".telegram", this).attr(
       "src",
-      "../anatolia/assets/img/icon/telegramB.png"
+      "./assets/img/icon/telegramB.png"
     );
     $("p", this).css("color", "#7C89FF");
   });
@@ -105,7 +105,7 @@ $(document).ready(function () {
   $(".area").mouseleave(function () {
     $(".telegram", this).attr(
       "src",
-      "../anatolia/assets/img/icon/telegram.png"
+      "./assets/img/icon/telegram.png"
     );
     $("p", this).css("color", "white");
   });
@@ -113,22 +113,22 @@ $(document).ready(function () {
 
 
   $(".area").mouseenter(function () {
-    $(".youtube", this).attr("src", "../anatolia/assets/img/icon/youtubeB.png");
+    $(".youtube", this).attr("src", "./assets/img/icon/youtubeB.png");
     $("p", this).css("color", "#7C89FF");
   });
 
   $(".area").mouseleave(function () {
-    $(".youtube", this).attr("src", "../anatolia/assets/img/icon/youtube.png");
+    $(".youtube", this).attr("src", "./assets/img/icon/youtube.png");
     $("p", this).css("color", "white");
   });
 
   $(".area").mouseenter(function () {
-    $(".reddit", this).attr("src", "../anatolia/assets/img/icon/redditB.png");
+    $(".reddit", this).attr("src", "./assets/img/icon/redditB.png");
     $("p", this).css("color", "#7C89FF");
   });
 
   $(".area").mouseleave(function () {
-    $(".reddit", this).attr("src", "../anatolia/assets/img/icon/reddit.png");
+    $(".reddit", this).attr("src", "./assets/img/icon/reddit.png");
     $("p", this).css("color", "white");
   });
 
@@ -156,17 +156,22 @@ $(document).ready(function () {
     );
   });
 
+
+  $(".goUpBuy").click(function (event) {
+    $("html, body").animate({ scrollTop: 0 }, 300);
+  });
+
   $("#pressGoUp").click(function (event) {
     $("html, body").animate({ scrollTop: 0 }, 300);
   });
 
   $("#pressGoUp").mouseenter(function (event) {
-    $(".goUpIcon").attr("src", "../anatolia/assets/img/icon/goupTwo.png");
+    $(".goUpIcon").attr("src", "./assets/img/icon/goupTwo.png");
     $("#goupText").css("color", "#7C89FF");
   });
 
   $("#pressGoUp").mouseleave(function (event) {
-    $(".goUpIcon").attr("src", "../anatolia/assets/img/icon/goUp.png");
+    $(".goUpIcon").attr("src", "./assets/img/icon/goUp.png");
     $("#goupText").css("color", "white");
   });
 });
