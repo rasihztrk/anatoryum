@@ -1359,6 +1359,7 @@ footer {
   }
   .box {
     .wrapper {
+      
       position: absolute;
       top: 50%;
       left: 50%;
@@ -1368,7 +1369,7 @@ footer {
       box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.06);
       z-index: 999999999;
       // border-radius: 18px 18px 3px 3px;
-      // padding: 10px 3px 3px 3px;
+     // padding: 10px 3px 3px 3px;
       height: 565px;
       width: 760px;
       .boxHeader {
@@ -1377,12 +1378,12 @@ footer {
           background-color: #c4c4c4;
           //  border-radius: 25px 3px 3px 0px;
           height: 16px;
-          margin-top: 4px;
+          margin-top: 4px;      
           text-align: center;
           border-radius: 3px;
           .tabText {
             font-family: "MontserratB";
-            color: #625c5c;
+            color: #625C5C;
             font-weight: 600;
             font-size: 12px;
             line-height: 20px;
@@ -1400,7 +1401,7 @@ footer {
           position: relative;
           display: flex;
           width: 762px;
-          background-color: #4e4e4e;
+          background-color: #4E4E4E;
           z-index: 3;
           height: 30px;
           justify-content: center !important;
