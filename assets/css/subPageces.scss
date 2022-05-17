@@ -38,6 +38,10 @@
   src: url("../font-family/SofiaProLight.woff2") format("opentype");
 }
 
+.right {
+  text-align: -webkit-right !important;
+}
+
 .about {
   margin-top: 116px;
   padding-top: 150px;
@@ -112,7 +116,7 @@
 }
 
 .faq {
-  margin-top: 167px;
+  margin-top: 123px;
   .row {
     .faHood {
       margin-top: 150px;
@@ -242,7 +246,7 @@
 }
 
 .blog {
-  margin-top: 167px;
+  margin-top: 123px;
   padding: 100px 0px;
   .hoodArea {
     h6 {
@@ -495,7 +499,7 @@
 }
 
 .ecosystem {
-  margin-top: 167px;
+  margin-top: 123px;
   .hoodArea {
     h6 {
       &:first-child {
@@ -579,6 +583,8 @@
       justify-content: center;
       img {
         position: absolute;
+        width: 50%;
+        height: auto;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -613,25 +619,6 @@
         width: 150px;
         height: auto;
       }
-    }
-    &:first-child {
-      margin-bottom: 100px;
-    }
-    &:nth-child(2) {
-      margin-bottom: 100px;
-      text-align: -webkit-right;
-    }
-    &:nth-child(4) {
-      text-align: -webkit-right;
-    }
-    &:nth-child(6) {
-      text-align: -webkit-right;
-    }
-    &:nth-child(8) {
-      text-align: -webkit-right;
-    }
-    &:nth-child(10) {
-      text-align: -webkit-right;
     }
     &:last-child {
       margin-bottom: 200px !important;

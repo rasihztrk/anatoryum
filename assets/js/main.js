@@ -635,10 +635,10 @@ $(document).ready(function () {
                   <div class="${apps[k]["hoodClass"]}">
                     <div class="cardHood">
                       <img class="${apps[k]["addImgClass"]}" src="${apps[k]["logo"]}" alt="${apps[k]["name"]}" />
-                      <a href="${apps[k]["content"]}" target="_blank" class="d-block d-md-none">  
+                      <a href="${apps[k]["content"]}" target="_blank" class="d-block">  
                         <button class="openLinkTwo" id="${k}">Trade Now</button>
                       </a>
-                      <button class="openLink d-none d-md-block" id="${k}">Trade Now</button>
+                      <button class="openLink d-none" id="${k}">Trade Now</button>
                     </div>
                   </div>
                 <div class="textArea">
@@ -663,8 +663,9 @@ $(document).ready(function () {
     <div class="wrapper">
     <header class="boxHeader">
       <div class="headerInside">
+      <img class="reloadImg" src="./assets/img/icon/reload.png" >
         <div class="tabArea">
-            <p class="tabText">${apps[appName]["name"]}</p>
+            <p class="tabText"><img src="./assets/img/icon/Boxlock.png" >  ${apps[appName]["name"]}</p>
           </div>
       </div>
     </header>

@@ -33,6 +33,11 @@
   src: url("../font-family/Chillax-Bold.woff2") format("opentype");
 }
 
+@font-face {
+  font-family: "MontserratB";
+  src: url("../font-family/Montserrat-Bold.woff2") format("opentype");
+}
+
 body {
   overflow-x: hidden;
 }
@@ -123,7 +128,7 @@ header nav .container-lg .navbar-brand img {
 header nav .container-lg .navbar-brand p {
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 34px;
   letter-spacing: 0.16em;
   margin-bottom: 0px !important;
@@ -176,7 +181,7 @@ header nav .container-lg .navbar-collapse ul li .iconNav {
 }
 
 .mainArea {
-  margin-top: 150px;
+  margin-top: 123px;
   padding-top: 150px;
   margin-bottom: 100px;
 }
@@ -952,7 +957,6 @@ header nav .container-lg .navbar-collapse ul li .iconNav {
 }
 
 .sliderThree {
-  background-color: #38383880;
   margin-bottom: 100px;
 }
 
@@ -1457,7 +1461,7 @@ footer .madeByArea p span {
 }
 
 .sectionModalBox iframe {
-  width: 100%;
+  width: 762px;
   height: 550px;
   margin-top: 18px !important;
 }
@@ -1471,18 +1475,17 @@ footer .madeByArea p span {
 .sectionModalBox .closeBtn {
   position: absolute;
   z-index: 99999;
-  right: 23px;
+  right: 12px;
   cursor: pointer;
-  top: 13px;
-  width: 10px;
+  top: -5px;
+  width: 14px;
 }
 
 .sectionModalBox .wrapper header {
   z-index: 999;
-  border-radius: 20px 20px 0px 0px;
   border: 0px solid black !important;
-  margin-top: 3px;
-  width: 99.3%;
+  margin-top: -13px;
+  width: 760px;
 }
 
 .sectionModalBox .wrapper header.active {
@@ -1504,29 +1507,37 @@ footer .madeByArea p span {
   -webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.06);
           box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.06);
   z-index: 999999999;
-  border-radius: 18px 18px 3px 3px;
-  padding: 10px 3px 3px 3px;
-  height: 581px;
-  width: 768px;
+  height: 565px;
+  width: 760px;
 }
 
 .sectionModalBox .box .wrapper .boxHeader .tabArea {
-  width: 250px;
+  width: 450px;
   background-color: #c4c4c4;
-  border-radius: 25px 3px 3px 0px;
+  height: 16px;
+  margin-top: 4px;
   text-align: center;
+  border-radius: 3px;
 }
 
 .sectionModalBox .box .wrapper .boxHeader .tabArea .tabText {
-  font-family: "Chillax-Semibold";
-  font-style: normal;
-  color: white;
+  font-family: "MontserratB";
+  color: #625C5C;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 20px;
   letter-spacing: 0.16em;
   margin: 0px;
   padding: 1px 0px 0px 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  gap: 10px;
+  height: 16px;
 }
 
 .sectionModalBox .box .wrapper .boxHeader .headerInside {
@@ -1534,13 +1545,23 @@ footer .madeByArea p span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 99%;
-  background-color: #232323;
+  width: 762px;
+  background-color: #4E4E4E;
   z-index: 3;
+  height: 30px;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.sectionModalBox .box .wrapper .boxHeader .headerInside .reloadImg {
+  width: 20px;
   height: 20px;
-  margin-top: 5px;
-  border-radius: 25px 25px 0px 0px;
-  margin-left: 1px;
+  margin-top: 3px;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -1554,7 +1575,7 @@ footer .madeByArea p span {
     background-image: url("../img/icon/hamburger.png") !important;
   }
   header nav .container-lg .navbar-brand img {
-    width: 135px !important;
+    width: 110px !important;
   }
   header nav .container-lg .navbar-brand p {
     font-size: 16px !important;
@@ -1701,7 +1722,7 @@ footer .madeByArea p span {
     background-image: url("../img/icon/hamburger.png") !important;
   }
   header nav .container-lg .navbar-brand img {
-    width: 135px !important;
+    width: 110px !important;
   }
   header nav .container-lg .navbar-brand p {
     font-size: 16px !important;

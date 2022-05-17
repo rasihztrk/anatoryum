@@ -20,7 +20,7 @@
             <div class="row centerArea">
                 <div class="col-12">
                     <div class="hoodArea">
-                        <h6>Anatolia Protocol</h6>
+                        <h6>Anatoryum Protocol</h6>
                         <p class="where">Blog / Mission</p>
                     </div>
                 </div>

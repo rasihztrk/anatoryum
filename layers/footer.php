@@ -50,7 +50,7 @@
         <div class="col-12">
           <div class="madeByArea">
             <img src="./assets/img/icon/madeBY.png" alt="">
-            <p><span>Anatolia Protocol</span> Copyright <br> © 2022 Open DeFi <br> Foundation. All rights <br> reserved.
+            <p><span>Anatoryum Protocol</span> Copyright <br> © 2022 Open DeFi <br> Foundation. All rights <br> reserved.
             </p>
           </div>
         </div>

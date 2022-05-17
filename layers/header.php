@@ -12,7 +12,7 @@
                 </div>
                 <div class="hoodArea">
                     <p>trade on</p>
-                    <p>Anatolia Protocol</p>
+                    <p>Anatoryum Protocol</p>
                     <p>Choose an exchange to get started</p>
                 </div>
                 <div class="serchButton">
@@ -46,7 +46,7 @@
                     <div class="container-lg">
                         <a class="navbar-brand" href="/">
                             <img src="./assets/img/icon/logo.png" alt="">
-                            <p>ANATOLIA PROTOCOL</p>
+                            <p>ANATORYUM PROTOCOL</p>
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -66,7 +66,7 @@
                                     <a class="nav-link" href="blogs.php">Blog</a>
                                 </li>
                                 <li>
-                                    <button class="tradeOn">Trade On Anatolia</button>
+                                    <button class="tradeOn">Trade On Anatoryum</button>
                                 </li>
                             </ul>
                         </div>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>AnaTolia Protocol</title>
+<title>Anatoryum Protocol</title>
 
 <head>
   <meta charset="UTF-8">
@@ -22,10 +22,10 @@
         <div class="col-12 col-lg-8 col-xl-6">
           <div class="hoodAreaFirst">
             <p>Unlimited Decentralized <br> Finance Markets for <br> Futures.</p>
-            <p>Create any financial market on Anatolia Protocol’s fast, cross-chain, low free, secure, and fully
+            <p>Create any financial market on Anatoryum Protocol’s fast, cross-chain, low free, secure, and fully
               decentralized exchange protocol.</p>
             <div class="buttonArea">
-              <button class="tradeOn">Trade on Anatolia Protocol</button>
+              <button class="tradeOn">Trade on Anatoryum Protocol</button>
               <a href="">
                 <button>Join Discord</button>
               </a>
@@ -73,7 +73,7 @@
       <div class="row">
         <div class="col-8 col-lg-6">
           <div class="textArea">
-            <p>Anatolia eliminates all <br class="d-none d-md-block"> barriers to trading</p>
+            <p>Anatoryum eliminates all <br class="d-none d-md-block"> barriers to trading</p>
           </div>
           <div class="trMaLeArea">
             <div class="trMaLe">
@@ -105,7 +105,7 @@
       <div class="row">
         <div class="col-12 col-sm-6 col-lg-8">
           <div class="textArea">
-            <h6>Explore Anatolia Protocol</h6>
+            <h6>Explore Anatoryum Protocol</h6>
           </div>
         </div>
         <div class="col-12 col-sm-6 col-lg-4">
@@ -121,7 +121,7 @@
             <div class="items">
               <img src="./assets/img/icon/trading.png" alt="">
               <h6>Traders</h6>
-              <p>Easy trade for Anatolia Protocol</p>
+              <p>Easy trade for Anatoryum Protocol</p>
             </div>
           </div>
         </div>
@@ -147,7 +147,7 @@
         </div>
         <div class="col-12 col-sm-8">
           <div class="textArea">
-            <h6>Explore Anatolia Protocol</h6>
+            <h6>Explore Anatoryum Protocol</h6>
           </div>
         </div>
         <div class="col-12 col-sm-4">
@@ -375,7 +375,7 @@
         <div class="col-12">
           <h6>Powering the future of finance</h6>
           <p>The best projects and businesses in blockchain are building <br class="d-none d-md-block"> alongside
-            anatolia protocol.</p>
+            Anatoryum protocol.</p>
         </div>
       </div>
     </div>
@@ -395,7 +395,7 @@
         <div class="col-12">
           <div class="textArea">
             <h6 class="hoodArea">Join a global community</h6>
-            <p class="text">Anatolia is governed entirely by the community. We encourage <br> early adopters to learn
+            <p class="text">Anatoryum is governed entirely by the community. We encourage <br> early adopters to learn
               more about our products, connect with <br> other community members, and have your say in shaping <br> the
               future of our protocol.</p>
           </div>

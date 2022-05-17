@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="hoodArea">
-                        <h6>Anatolia Protocol</h6>
+                        <h6>Anatoryum Protocol</h6>
                         <p class="where">About / Mission</p>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
                 <div class="col-12">
                     <div class="aboutusBootom">
                         <h6>Powering the future of <span>finance</span></h6>
-                        <p>The best projects and businesses in blockchain are building <br class="d-none d-lg-block"> alongside anatolia protocol.</p>
+                        <p>The best projects and businesses in blockchain are building <br class="d-none d-lg-block"> alongside anatoryum protocol.</p>
                     </div>
                 </div>
             </div>
