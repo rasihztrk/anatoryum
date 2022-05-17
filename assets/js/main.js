@@ -74,6 +74,48 @@ $(document).ready(function () {
     },
   });
 
+
+  $(".facebookw").mouseenter(function () {
+    $(".facebookw").attr("src", "./assets/img/icon/facebookwTwo.png");
+  });
+
+
+  $(".twitterw").mouseenter(function () {
+    $(".twitterw").attr("src", "./assets/img/icon/twitterwTwo.png");
+  });
+
+  $(".instagramw").mouseenter(function () {
+    $(".instagramw").attr("src", "./assets/img/icon/instagramwTwo.png");
+  });
+
+  $(".piterestw").mouseenter(function () {
+    $(".piterestw").attr("src", "./assets/img/icon/pinterestwTwo.png");
+  });
+
+
+
+  $(".facebookw").mouseleave(function () {
+    $(".facebookw").attr("src", "./assets/img/icon/facebookW.png");
+  });
+
+
+  $(".twitterw").mouseleave(function () {
+    $(".twitterw").attr("src", "./assets/img/icon/twitterW.png");
+  });
+
+  $(".instagramw").mouseleave(function () {
+    $(".instagramw").attr("src", "./assets/img/icon/instagramW.png");
+  });
+
+  $(".piterestw").mouseleave(function () {
+    $(".piterestw").attr("src", "./assets/img/icon/pinterestW.png");
+  });
+
+
+
+
+
+
   $(".area").mouseenter(function () {
     $(".discort", this).attr("src", "./assets/img/icon/discortB.png");
     $("p", this).css("color", "#7C89FF");

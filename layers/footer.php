@@ -31,18 +31,18 @@
             <li><a href="">About</a></li>
             <li class="longText">Stay connected with us and let's know more about cryptocurrency and more explorer us on
               this</li>
-            <li>
+            <li clas>
               <a href="">
-                <img src="./assets/img/icon/facebookW.png" alt="">
+                <img class="facebookw" src="./assets/img/icon/facebookW.png" alt="">
               </a>
               <a href="">
-                <img src="./assets/img/icon/twitterW.png" alt="">
+                <img class="twitterw" src="./assets/img/icon/twitterW.png" alt="">
               </a>
               <a href="">
-                <img src="./assets/img/icon/instagramW.png" alt="">
+                <img class="instagramw" src="./assets/img/icon/instagramW.png" alt="">
               </a>
               <a href="">
-                <img src="./assets/img/icon/pinterestW.png" alt="">
+                <img class="piterestw" src="./assets/img/icon/pinterestW.png" alt="">
               </a>
             </li>
           </ul>
