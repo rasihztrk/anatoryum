@@ -754,6 +754,56 @@ header nav .container-lg .navbar-collapse ul li .iconNav {
           animation: iconBigSmall 1s infinite;
 }
 
+.exploreTwo .owl-Four {
+  position: relative;
+}
+
+.exploreTwo .owl-Four .exAreaSlider {
+  display: block;
+  text-align: -webkit-center;
+}
+
+.exploreTwo .owl-Four .exAreaSlider p {
+  color: white;
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 28px;
+}
+
+.exploreTwo .owl-Four .exAreaSlider img {
+  width: 60%;
+}
+
+.exploreTwo .owl-Four .owl-nav {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: -100px;
+  gap: 20px;
+}
+
+.exploreTwo .owl-Four .owl-nav .owl-prev {
+  height: 50px;
+  width: 50px;
+  font-size: 0px !important;
+  background-image: url("../img/icon/exLeft.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.exploreTwo .owl-Four .owl-nav .owl-next {
+  height: 50px;
+  width: 50px;
+  font-size: 0px !important;
+  background-image: url("../img/icon/exRight.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .accesUnlimited {
   margin-bottom: 100px;
 }
@@ -1522,7 +1572,7 @@ footer .madeByArea p span {
 
 .sectionModalBox .box .wrapper .boxHeader .tabArea .tabText {
   font-family: "MontserratB";
-  color: #625C5C;
+  color: #625c5c;
   font-weight: 600;
   font-size: 12px;
   line-height: 20px;
@@ -1546,7 +1596,7 @@ footer .madeByArea p span {
   display: -ms-flexbox;
   display: flex;
   width: 762px;
-  background-color: #4E4E4E;
+  background-color: #4e4e4e;
   z-index: 3;
   height: 30px;
   -webkit-box-pack: center !important;

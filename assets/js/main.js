@@ -74,11 +74,29 @@ $(document).ready(function () {
     },
   });
 
+  $(".owl-Four").owlCarousel({
+    autoplay: false,
+    rewind: true,
+    items: 1,
+    margin: 30,
+    responsiveClass: true,
+    autoHeight: true,
+    smartSpeed: 800,
+    nav: true,
+    dots: false,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+    },
+  });
 
   $(".facebookw").mouseenter(function () {
     $(".facebookw").attr("src", "./assets/img/icon/facebookwTwo.png");
   });
-
 
   $(".twitterw").mouseenter(function () {
     $(".twitterw").attr("src", "./assets/img/icon/twitterwTwo.png");
@@ -92,12 +110,9 @@ $(document).ready(function () {
     $(".piterestw").attr("src", "./assets/img/icon/pinterestwTwo.png");
   });
 
-
-
   $(".facebookw").mouseleave(function () {
     $(".facebookw").attr("src", "./assets/img/icon/facebookW.png");
   });
-
 
   $(".twitterw").mouseleave(function () {
     $(".twitterw").attr("src", "./assets/img/icon/twitterW.png");
@@ -110,11 +125,6 @@ $(document).ready(function () {
   $(".piterestw").mouseleave(function () {
     $(".piterestw").attr("src", "./assets/img/icon/pinterestW.png");
   });
-
-
-
-
-
 
   $(".area").mouseenter(function () {
     $(".discort", this).attr("src", "./assets/img/icon/discortB.png");
@@ -137,22 +147,14 @@ $(document).ready(function () {
   });
 
   $(".area").mouseenter(function () {
-    $(".telegram", this).attr(
-      "src",
-      "./assets/img/icon/telegramB.png"
-    );
+    $(".telegram", this).attr("src", "./assets/img/icon/telegramB.png");
     $("p", this).css("color", "#7C89FF");
   });
 
   $(".area").mouseleave(function () {
-    $(".telegram", this).attr(
-      "src",
-      "./assets/img/icon/telegram.png"
-    );
+    $(".telegram", this).attr("src", "./assets/img/icon/telegram.png");
     $("p", this).css("color", "white");
   });
-  
-
 
   $(".area").mouseenter(function () {
     $(".youtube", this).attr("src", "./assets/img/icon/youtubeB.png");
@@ -197,7 +199,6 @@ $(document).ready(function () {
       1000
     );
   });
-
 
   $(".goUpBuy").click(function (event) {
     $("html, body").animate({ scrollTop: 0 }, 300);
@@ -778,8 +779,7 @@ $(document).ready(function () {
     $(".centralized").removeClass("d-none");
   });
 
-  console.log(location.href)
-
+  console.log(location.href);
 });
 
 if (window.location.hash) {

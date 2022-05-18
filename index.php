@@ -169,7 +169,7 @@
     </div>
   </section>
   <section class="exploreTwo">
-    <div class="row">
+    <div class="row d-none d-sm-block">
       <div class="col-12">
         <div class="iconArea">
           <div class="imgArea">
@@ -194,6 +194,48 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="row d-block d-sm-none">
+    <div class="carousel-wrap">
+          <div class="owl-Four owl-carousel owl-theme">
+            <div class="item">
+                <div class="exAreaSlider">
+                  <p>%10 TEAM</p>
+                  <img src="./assets/img/icon/exOne.png" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="exAreaSlider">
+                  <p>%24 EXCHANGE</p>
+                  <img src="./assets/img/icon/exTwo.png" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="exAreaSlider">
+                  <p>%6 ADVERTISING</p>
+                  <img src="./assets/img/icon/exThree.png" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="exAreaSlider">
+                  <p>%22 FOUNDATION</p>
+                  <img src="./assets/img/icon/exFour.png" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="exAreaSlider">
+                  <p>%27 LIQUIDITY</p>
+                  <img src="./assets/img/icon/exFive.png" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="exAreaSlider">
+                  <p>%22 REWARDS</p>
+                  <img src="./assets/img/icon/exSix.png" alt="">
+                </div>
+            </div>
+          </div>
+        </div>
     </div>
   </section>
   <section class="accesUnlimited">
