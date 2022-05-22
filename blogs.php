@@ -17,57 +17,24 @@
     <?php include './layers/header.php'; ?>
     <section class="blog">
         <div class="container">
-            <div class="row centerArea">
+            <div class="row">
                 <div class="col-12">
                     <div class="hoodArea">
-                        <h6>Anatoryum Protocol</h6>
+                        <h6>Anatolia Protocol</h6>
                         <p class="where">Blog / Mission</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 areaImg">
                     <div class="BlogCard">
                         <div class="cardHood">
-                            <img class="img-fluid" src="./assets/img/imgOne.png" alt="">
-                        </div>
-                        <div class="cardBottom">
-                            <p>Crypto Sports Sponsorship Moves into Fast Lane with OKX F1 Deal</p>
-                            <p>The crypto industry has stepped up another gear in its race to win the hearts, minds, and some money of sporting fans the world over. Following the news that will be one of the main sponsors of the World Cup in Qatar later this year, the crypto exchange has announced that it has become the “largest primary partner of the McLaren Formula 1 team.</p>
-                        </div>
-                        <div class="readButton">
-                            <a href="./blogPage.php">
-                                <button>Read More</button>
+                            <a href="">
+                                <img src="./assets/img/icon/b1.png" alt="">
                             </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
-                    <div class="BlogCard">
-                        <div class="cardHood">
-                            <img class="img-fluid" src="./assets/img/imgTwo.png" alt="">
-                        </div>
-                        <div class="cardBottom">
-                            <p>Crypto Art academy is starting 2023 !</p>
-                            <p>The crypto industry has stepped up another gear in its race to win the hearts, minds, and some money of sporting fans the world over. Following the news that will be one of the main sponsors of the World Cup in Qatar later this year, the crypto exchange has announced that it has become the “largest primary partner of the McLaren Formula 1 team.</p>
-                        </div>
-                        <div class="readButton">
-                            <a href="./blogPage.php">
-                                <button>Read More</button>
+                            <a href="">
+                                <img src="./assets/img/icon/b2.png" alt="">
                             </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 mt-5 mt-lg-0">
-                    <div class="BlogCard">
-                        <div class="cardHood">
-                            <img class="img-fluid" src="./assets/img/imgThree.png" alt="">
-                        </div>
-                        <div class="cardBottom">
-                            <p>Metaverse vr is now renewed.</p>
-                            <p>The crypto industry has stepped up another gear in its race to win the hearts, minds, and some money of sporting fans the world over. Following the news that will be one of the main sponsors of the World Cup in Qatar later this year, the crypto exchange has announced that it has become the “largest primary partner of the McLaren Formula 1 team.</p>
-                        </div>
-                        <div class="readButton">
-                            <a href="./blogPage.php">
-                                <button>Read More</button>
+                            <a href="">
+                                <img src="./assets/img/icon/b3.png" alt="">
                             </a>
                         </div>
                     </div>

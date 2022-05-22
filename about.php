@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/jpg" href="./assets/img/icon/logoFI.png"/>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/img/icon/logoFI.png" />
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
@@ -21,21 +21,21 @@
             <div class="row">
                 <div class="col-12">
                     <div class="hoodArea">
-                        <h6>Anatoryum Protocol</h6>
+                        <h6>Anatolia Protocol </h6>
                         <p class="where">About / Mission</p>
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="aboutusText">
-                        <h6>Creating a truly free and decentralized financial network for everyone.</h6>
-                        <p>Our mission is to create a more free and inclusive financial system through decentralization.</p>
-                        <p>By providing the unrestricted and unprecedented ability to express diverse views in the decentralized financial markets, we are striving to empower individuals with the ability to more efficiently allocate capital in our society.</p>
+                        <h6>Creating a centralized and decentralized financial network that is easy to use for everyone</h6>
+                        <p>Our mission is to create a more free and inclusive financial system through trading.</p>
+                        <p>We strive to empower individuals with the ability to allocate capital more efficiently in our society, by providing the unlimited and unprecedented ability to express divergent views in centralized and decentralized financial markets.</p>
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="aboutusBootom">
                         <h6>Powering the future of <span>finance</span></h6>
-                        <p>The best projects and businesses in blockchain are building <br class="d-none d-lg-block"> alongside anatoryum protocol.</p>
+                        <p>The best projects and businesses in blockchain are building <br class="d-none d-lg-block"> alongside anatolia protocol.</p>
                     </div>
                 </div>
             </div>

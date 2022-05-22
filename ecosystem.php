@@ -20,9 +20,9 @@
             <div class="row">
                 <div class="col-12">
                     <div class="hoodArea">
-                        <h6>Anatoryum Protocol</h6>
+                        <h6>Anatolia Protocol</h6>
                         <p class="hoodTwo">Ecosystem</p>
-                        <p class="text">Anatoryum Protocol has built one of the largest and fastest growing DeFi ecosystems in the entire world. Scroll down and explore the entire ecosystem.</p>
+                        <p class="text">Anatolia Protocol  has built one of the largest and fastest growing DeFi ecosystems in the entire world. Scroll down and explore the entire ecosystem.</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 right">
@@ -467,55 +467,48 @@
                     </a>
                 </div>
                 <div class="col-12 col-md-6 mb-sm-5 ">
-                    <a href="https://www.terra.money/" target="_blank">
-                        <div class="cardIconArea">
-                            <img src="./assets/img/icon/e70.png" alt="">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-md-6 mb-sm-5 right">
                     <a href="https://tether.to/" target="_blank">
                         <div class="cardIconArea">
                             <img src="./assets/img/icon/e71.png" alt="">
                         </div>
                     </a>
                 </div>
-                <div class="col-12 col-md-6 mb-sm-5 ">
+                <div class="col-12 col-md-6 mb-sm-5 right">
                     <a href="https://thegraph.com/en/" target="_blank">
                         <div class="cardIconArea">
                             <img src="./assets/img/icon/e72.png" alt="">
                         </div>
                     </a>
                 </div>
-                <div class="col-12 col-md-6 mb-sm-5 right">
+                <div class="col-12 col-md-6 mb-sm-5 ">
                     <a href="https://tidal.finance/" target="_blank">
                         <div class="cardIconArea">
                             <img src="./assets/img/icon/e73.png" alt="">
                         </div>
                     </a>
                 </div>
-                <div class="col-12 col-md-6 mb-sm-5 ">
+                <div class="col-12 col-md-6 mb-sm-5 right">
                     <a href="https://www.tokocrypto.com/" target="_blank">
                         <div class="cardIconArea">
                             <img src="./assets/img/icon/e74.png" alt="">
                         </div>
                     </a>
                 </div>
-                <div class="col-12 col-md-6 mb-sm-5 right">
+                <div class="col-12 col-md-6 mb-sm-5 ">
                     <a href="https://tomochain.com/" target="_blank">
                         <div class="cardIconArea">
                             <img src="./assets/img/icon/e75.png" alt="">
                         </div>
                     </a>
                 </div>
-                <div class="col-12 col-md-6 mb-sm-5 ">
+                <div class="col-12 col-md-6 mb-sm-5 right">
                     <a href="https://umaproject.org/" target="_blank">
                         <div class="cardIconArea">
                             <img src="./assets/img/icon/e77.png" alt="">
                         </div>
                     </a>
                 </div>
-                <div class="col-12 col-md-6 mb-sm-5 right">
+                <div class="col-12 col-md-6 mb-sm-5">
                     <a href="https://unilend.finance/" target="_blank">
                         <div class="cardIconArea">
                             <img src="./assets/img/icon/e78.png" alt="">

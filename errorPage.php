@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="hoodArea">
-                        <p>Anatoryum Protocol</p>
+                        <p>Anatolia Protocol </p>
                         <p>Error</p>
                         <p>Sorry, the page <span> not found!</span></p>
                     </div>

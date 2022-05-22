@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="hoodArea">
-                        <h6>Anatoryum Protocol</h6>
+                        <h6>Anatolia Protocol</h6>
                         <p class="where">Contact</p>
                         <p class="littleP">Crypto Sports Sponsorship Moves into Fast Lane with OKX F1 Deal</p>
                     </div>

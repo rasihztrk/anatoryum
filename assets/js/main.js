@@ -228,8 +228,6 @@ $(document).ready(function () {
       hoodClass: "cbThree",
       logo: "./assets/img/icon/binance.png",
       hoodText: "Binance",
-      smallText:
-        "Decentralized exchange for Terra community. Trade with zero gas fees, and low cost cross-chain transfer.",
       language: "English",
       hidden: false,
       controls: {
@@ -249,8 +247,7 @@ $(document).ready(function () {
       hoodClass: "cbFour",
       logo: "./assets/img/icon/coinbase.svg",
       hoodText: "Coin Base",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
@@ -270,8 +267,7 @@ $(document).ready(function () {
       hoodClass: "cbThree",
       logo: "./assets/img/icon/ftx.png",
       hoodText: "Ftx",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
@@ -291,8 +287,7 @@ $(document).ready(function () {
       hoodClass: "cbFour",
       logo: "./assets/img/icon/kraken.webp",
       hoodText: "Kraken",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
@@ -312,8 +307,7 @@ $(document).ready(function () {
       hoodClass: "cbFive",
       logo: "./assets/img/icon/kuTwo.png",
       hoodText: "Kucoin",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
@@ -333,15 +327,14 @@ $(document).ready(function () {
       hoodClass: "cbSix",
       logo: "./assets/img/icon/gateio.png",
       hoodText: "Gate.io",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
         minimize: true,
         close: true,
       },
-      content: "a1.html",
+      content: "https://www.gate.io/tr",
       screenSizes: {
         width: 769,
         height: 500,
@@ -354,8 +347,7 @@ $(document).ready(function () {
       hoodClass: "cbEight",
       logo: "./assets/img/icon/bitfinex-logo.svg",
       hoodText: "Bitfinex",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
@@ -375,8 +367,7 @@ $(document).ready(function () {
       hoodClass: "cbSeven",
       logo: "./assets/img/icon/huobi.svg",
       hoodText: "Huobi",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
@@ -396,8 +387,7 @@ $(document).ready(function () {
       hoodClass: "cbFour",
       logo: "./assets/img/icon/gemini.webp",
       hoodText: "Gemini",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
@@ -417,8 +407,7 @@ $(document).ready(function () {
       hoodClass: "cbThree",
       logo: "./assets/img/icon/crypto.svg",
       hoodText: "Crypto",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
@@ -438,15 +427,14 @@ $(document).ready(function () {
       hoodClass: "cbSix",
       logo: "./assets/img/icon/mexc.svg",
       hoodText: "Mexc",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
         minimize: true,
         close: true,
       },
-      content: "https://crypto.com/exchange",
+      content: "https://www.mexc.com/",
       screenSizes: {
         width: 769,
         height: 500,
@@ -459,8 +447,7 @@ $(document).ready(function () {
       hoodClass: "cbSeven",
       logo: "./assets/img/icon/bithumb.png",
       hoodText: "Bithumb",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
@@ -480,8 +467,7 @@ $(document).ready(function () {
       hoodClass: "cbOne",
       logo: "./assets/img/icon/blockchain.png",
       hoodText: "Blockchain",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
@@ -501,8 +487,7 @@ $(document).ready(function () {
       hoodClass: "cbThree",
       logo: "./assets/img/icon/bitmart.svg",
       hoodText: "Bitmart",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
@@ -522,8 +507,7 @@ $(document).ready(function () {
       hoodClass: "cbTwo",
       logo: "./assets/img/icon/okx.png",
       hoodText: "Okx",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
@@ -543,8 +527,7 @@ $(document).ready(function () {
       hoodClass: "cbFive",
       logo: "./assets/img/icon/kine.png",
       hoodText: "kine.vc",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
@@ -564,15 +547,14 @@ $(document).ready(function () {
       hoodClass: "cbSeven",
       logo: "./assets/img/icon/drift.png",
       hoodText: "Drift trade",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
         minimize: true,
         close: true,
       },
-      content: "https://www.kine.vc/exchange",
+      content: "https://www.drift.trade/",
       screenSizes: {
         width: 769,
         height: 500,
@@ -585,8 +567,7 @@ $(document).ready(function () {
       hoodClass: "cbNine",
       logo: "./assets/img/icon/perp.svg",
       hoodText: "Perp exchange",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
@@ -606,8 +587,7 @@ $(document).ready(function () {
       hoodClass: "cbTwo",
       logo: "./assets/img/icon/BNB_Chain.svg",
       hoodText: "Bnbchain world",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
@@ -627,8 +607,7 @@ $(document).ready(function () {
       hoodClass: "cbThree",
       logo: "./assets/img/icon/apollox.svg",
       hoodText: "Apollox finance",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
@@ -649,8 +628,7 @@ $(document).ready(function () {
       hoodClass: "cbEight",
       logo: "./assets/img/icon/dydx.svg",
       hoodText: "Dydx exchange",
-      smallText:
-        "Picasso Exchange offers a sleek user interface to access decentralized spot and derivatives markets on Injective.",
+
       language: "English",
       hidden: false,
       controls: {
@@ -686,8 +664,6 @@ $(document).ready(function () {
                   </div>
                 <div class="textArea">
                    <p class="hoodText" >${apps[k]["hoodText"]} <p/>
-                   <p class="smallText">${apps[k]["smallText"]} </p>
-                   <button>${apps[k]["language"]}</button>
                 </div>
               </div>
               </div>

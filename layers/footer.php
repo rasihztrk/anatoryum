@@ -23,7 +23,7 @@
             <li><a href="">Information</a></li>
             <li><a href="./index.php">Join Community</a></li>
             <li><a href="./about.php">About</a></li>
-            <li><a href="./faq.php">FAQ</a></li>
+            <li class="cursorS" ><a class="cursorS" href="">FAQ</a></li>
           </ul>
         </div>
         <div class="col-6 col-md-3 offset-3 offset-sm-0 mt-5 mt-sm-0">
@@ -50,7 +50,7 @@
         <div class="col-12">
           <div class="madeByArea">
             <img src="./assets/img/icon/madeBY.png" alt="">
-            <p><span>Anatoryum Protocol</span> Copyright <br> © 2022 Open DeFi <br> Foundation. All rights <br> reserved.
+            <p><span>Anatolia Protocol</span> Copyright <br> © 2022 Open DeFi <br> Foundation. All rights <br> reserved.
             </p>
           </div>
         </div>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Anatoryum Protocol</title>
+<title>Anatolia Protocol </title>
 
 <head>
   <meta charset="UTF-8">
@@ -22,10 +22,10 @@
         <div class="col-12 col-lg-8 col-xl-6">
           <div class="hoodAreaFirst">
             <p>Unlimited Decentralized <br> Finance Markets for <br> Futures.</p>
-            <p>Create any financial market on Anatoryum Protocol’s fast, cross-chain, low free, secure, and fully
+            <p>Create any financial market on Anatolia Protocol’s fast, cross-chain, low free, secure, and fully
               decentralized exchange protocol.</p>
             <div class="buttonArea">
-              <button class="tradeOn">Trade on Anatoryum Protocol</button>
+              <button class="tradeOn">Trade on Anatolia Protocol</button>
               <a href="">
                 <button>Join Discord</button>
               </a>
@@ -73,7 +73,7 @@
       <div class="row">
         <div class="col-8 col-lg-6">
           <div class="textArea">
-            <p>Anatoryum eliminates all <br class="d-none d-md-block"> barriers to trading</p>
+            <p>Anatolia eliminates all <br class="d-none d-md-block"> barriers to trading</p>
           </div>
           <div class="trMaLeArea">
             <div class="trMaLe">
@@ -105,7 +105,7 @@
       <div class="row">
         <div class="col-12 col-sm-6 col-lg-8">
           <div class="textArea">
-            <h6>Explore Anatoryum Protocol</h6>
+            <h6>Explore Anatolia Protocol</h6>
           </div>
         </div>
         <div class="col-12 col-sm-6 col-lg-4">
@@ -121,7 +121,7 @@
             <div class="items">
               <img src="./assets/img/icon/trading.png" alt="">
               <h6>Traders</h6>
-              <p>Easy trade for Anatoryum Protocol</p>
+              <p>Easy trade for Anatolia Protocol</p>
             </div>
           </div>
         </div>
@@ -147,7 +147,7 @@
         </div>
         <div class="col-12 col-sm-8">
           <div class="textArea">
-            <h6>Explore Anatoryum Protocol</h6>
+            <h6>Explore Anatolia Protocol </h6>
           </div>
         </div>
         <div class="col-12 col-sm-4">
@@ -196,46 +196,46 @@
       </div>
     </div>
     <div class="row d-block d-sm-none">
-    <div class="carousel-wrap">
-          <div class="owl-Four owl-carousel owl-theme">
-            <div class="item">
-                <div class="exAreaSlider">
-                  <p>%10 TEAM</p>
-                  <img src="./assets/img/icon/exOne.png" alt="">
-                </div>
+      <div class="carousel-wrap">
+        <div class="owl-Four owl-carousel owl-theme">
+          <div class="item">
+            <div class="exAreaSlider">
+              <p>%10 TEAM</p>
+              <img src="./assets/img/icon/exOne.png" alt="">
             </div>
-            <div class="item">
-                <div class="exAreaSlider">
-                  <p>%24 EXCHANGE</p>
-                  <img src="./assets/img/icon/exTwo.png" alt="">
-                </div>
+          </div>
+          <div class="item">
+            <div class="exAreaSlider">
+              <p>%24 EXCHANGE</p>
+              <img src="./assets/img/icon/exTwo.png" alt="">
             </div>
-            <div class="item">
-                <div class="exAreaSlider">
-                  <p>%6 ADVERTISING</p>
-                  <img src="./assets/img/icon/exThree.png" alt="">
-                </div>
+          </div>
+          <div class="item">
+            <div class="exAreaSlider">
+              <p>%6 ADVERTISING</p>
+              <img src="./assets/img/icon/exThree.png" alt="">
             </div>
-            <div class="item">
-                <div class="exAreaSlider">
-                  <p>%22 FOUNDATION</p>
-                  <img src="./assets/img/icon/exFour.png" alt="">
-                </div>
+          </div>
+          <div class="item">
+            <div class="exAreaSlider">
+              <p>%22 FOUNDATION</p>
+              <img src="./assets/img/icon/exFour.png" alt="">
             </div>
-            <div class="item">
-                <div class="exAreaSlider">
-                  <p>%27 LIQUIDITY</p>
-                  <img src="./assets/img/icon/exFive.png" alt="">
-                </div>
+          </div>
+          <div class="item">
+            <div class="exAreaSlider">
+              <p>%27 LIQUIDITY</p>
+              <img src="./assets/img/icon/exFive.png" alt="">
             </div>
-            <div class="item">
-                <div class="exAreaSlider">
-                  <p>%22 REWARDS</p>
-                  <img src="./assets/img/icon/exSix.png" alt="">
-                </div>
+          </div>
+          <div class="item">
+            <div class="exAreaSlider">
+              <p>%22 REWARDS</p>
+              <img src="./assets/img/icon/exSix.png" alt="">
             </div>
           </div>
         </div>
+      </div>
     </div>
   </section>
   <section class="accesUnlimited">
@@ -417,7 +417,7 @@
         <div class="col-12">
           <h6>Powering the future of finance</h6>
           <p>The best projects and businesses in blockchain are building <br class="d-none d-md-block"> alongside
-            Anatoryum protocol.</p>
+            Anatolia Protocol.</p>
         </div>
       </div>
     </div>

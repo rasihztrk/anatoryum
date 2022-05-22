@@ -38,6 +38,10 @@
   src: url("../font-family/SofiaProLight.woff2") format("opentype");
 }
 
+.cursorS {
+  cursor: url("../img//icon/underProcess.png") 0 0, default;
+}
+
 .right {
   text-align: -webkit-right !important;
 }
@@ -281,11 +285,22 @@
   margin-bottom: 50px !important;
 }
 
-.blog .col-md-6 .BlogCard .cardHood img {
-  width: 100%;
+.blog .areaImg .BlogCard .cardHood {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  gap: 20px;
 }
 
-.blog .col-md-6 .BlogCard .cardBottom {
+.blog .areaImg .BlogCard .cardHood a img {
+  margin-top: 200px;
+  width: 100%;
+  -webkit-filter: drop-shadow(0px 4px 33px #808cf4);
+          filter: drop-shadow(0px 4px 33px #808cf4);
+}
+
+.blog .areaImg .BlogCard .cardBottom {
   min-height: 250px !important;
   margin-bottom: 20px;
   padding: 5px;
@@ -295,7 +310,7 @@
   border-radius: 0px 0px 17px 17px;
 }
 
-.blog .col-md-6 .BlogCard .cardBottom p:first-child {
+.blog .areaImg .BlogCard .cardBottom p:first-child {
   font-family: "Chillax-Semibold";
   font-size: 18px;
   line-height: 25px;
@@ -303,7 +318,7 @@
   color: #ffffff;
 }
 
-.blog .col-md-6 .BlogCard .cardBottom p:nth-child(2) {
+.blog .areaImg .BlogCard .cardBottom p:nth-child(2) {
   font-family: "Chillax-Semibold";
   font-style: normal;
   font-weight: 600;
@@ -313,11 +328,11 @@
   color: #ffffff;
 }
 
-.blog .col-md-6 .BlogCard .readButton {
+.blog .areaImg .BlogCard .readButton {
   text-align: center;
 }
 
-.blog .col-md-6 .BlogCard .readButton button {
+.blog .areaImg .BlogCard .readButton button {
   font-family: "Chillax-Semibold";
   border: 0px;
   outline: 0px;
@@ -327,7 +342,7 @@
   padding: 10px 30px;
 }
 
-.blog .col-md-6:last-child {
+.blog .areaImg:last-child {
   margin-bottom: 200px;
 }
 
@@ -859,6 +874,17 @@
 }
 
 @media only screen and (max-width: 992px) {
+  .areaImg .BlogCard .cardHood {
+    display: -ms-grid !important;
+    display: grid !important;
+  }
+  .areaImg .BlogCard .cardHood img {
+    margin-top: 20px !important;
+    width: 100% !important;
+  }
+  .areaImg .BlogCard .cardHood img:first-child {
+    margin-top: 100px;
+  }
   .about .hoodArea h6 {
     font-size: 40px !important;
   }
