@@ -27,13 +27,13 @@
                 <div class="col-12 areaImg">
                     <div class="BlogCard">
                         <div class="cardHood">
-                            <a href="">
+                            <a target="_blank" href="https://tr.cointelegraph.com/">
                                 <img src="./assets/img/icon/b1.png" alt="">
                             </a>
-                            <a href="">
+                            <a target="_blank" href="https://www.coindesk.com/">
                                 <img src="./assets/img/icon/b2.png" alt="">
                             </a>
-                            <a href="">
+                            <a target="_blank" href="https://finance.yahoo.com/">
                                 <img src="./assets/img/icon/b3.png" alt="">
                             </a>
                         </div>

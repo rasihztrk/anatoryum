@@ -38,6 +38,20 @@
   src: url("../font-family/Montserrat-Bold.woff2") format("opentype");
 }
 
+.cursorS {
+  cursor: url("../img//icon/underProcess.png") 0 0, default;
+}
+
+.endJoin {
+  -ms-grid-column-align: self-end;
+      justify-self: self-end;
+}
+
+.startJ {
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -1041,6 +1055,7 @@ header nav .container-lg .navbar-collapse ul li .iconNav {
 
 .socialArea .socialAreaItems {
   margin: 100px 0px;
+  margin-bottom: 50px;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 1fr;
@@ -1068,13 +1083,60 @@ header nav .container-lg .navbar-collapse ul li .iconNav {
 .socialArea .socialAreaItems .area a img {
   width: 120px;
   height: auto;
-  margin-bottom: 40px;
   -webkit-box-shadow: -10px 10px 66px #5cc4ff;
           box-shadow: -10px 10px 66px #5cc4ff;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .socialArea .socialAreaItems .area a p {
+  font-family: "Chillax-Bold";
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  background: #28283c;
+  -webkit-box-shadow: -10px 10px 30px #5cc4ff;
+          box-shadow: -10px 10px 30px #5cc4ff;
+  border-radius: 40px;
+  color: white;
+  width: 130px;
+}
+
+.socialArea .socialAreaItemsTwo {
+  margin-bottom: 100px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  -webkit-column-gap: 20px;
+  column-gap: 20px;
+}
+
+.socialArea .socialAreaItemsTwo .area {
+  display: block;
+  text-align: -webkit-center;
+}
+
+.socialArea .socialAreaItemsTwo .area:hover {
+  color: #7c89ff !important;
+}
+
+.socialArea .socialAreaItemsTwo .area a {
+  text-decoration: none;
+}
+
+.socialArea .socialAreaItemsTwo .area a img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 40px;
+  -webkit-box-shadow: -10px 10px 66px #5cc4ff;
+          box-shadow: -10px 10px 66px #5cc4ff;
+  border-radius: 20px;
+}
+
+.socialArea .socialAreaItemsTwo .area a p {
   font-family: "Chillax-Bold";
   font-size: 20px;
   line-height: 36px;
@@ -1615,6 +1677,9 @@ footer .madeByArea p span {
 }
 
 @media only screen and (max-width: 1400px) {
+  .socialAreaItemsTwo .area a img {
+    width: 100px !important;
+  }
   .programs {
     padding-bottom: 70px !important;
   }
@@ -2020,6 +2085,9 @@ footer .madeByArea p span {
   .socialArea .socialAreaItems .area a p {
     font-size: 16px !important;
   }
+  .socialArea .socialAreaItemsTwo {
+    display: none;
+  }
   footer ul {
     padding: 0px !important;
   }
@@ -2096,39 +2164,6 @@ footer .madeByArea p span {
     width: 96px !important;
     border-radius: 20px !important;
   }
-  .socialArea .noneAreaMB {
-    margin-top: -25px;
-  }
-  .socialArea .noneAreaMB .area {
-    text-align-last: center;
-    text-align: -webkit-center;
-  }
-  .socialArea .noneAreaMB .area a {
-    text-decoration: none;
-  }
-  .socialArea .noneAreaMB .area a img {
-    width: 96px !important;
-    height: auto;
-    height: auto;
-    margin-bottom: 40px;
-    -webkit-box-shadow: -10px 10px 66px #5cc4ff;
-            box-shadow: -10px 10px 66px #5cc4ff;
-    border-radius: 20px;
-  }
-  .socialArea .noneAreaMB .area a p {
-    font-family: "Chillax-Bold";
-    font-size: 20px;
-    line-height: 36px;
-    text-align: center;
-    background: #28283c;
-    -webkit-box-shadow: -10px 10px 30px #5cc4ff;
-            box-shadow: -10px 10px 30px #5cc4ff;
-    border-radius: 40px;
-    color: white;
-    text-align: center;
-    width: 130px;
-    margin-bottom: 100px;
-  }
   footer ul li img {
     width: 25px !important;
     height: 25px !important;
@@ -2171,6 +2206,7 @@ footer .madeByArea p span {
   }
   .slidearea .program .specialCard {
     max-width: 240px;
+    width: 250px !important;
   }
   .mainArea {
     margin-top: 62px !important;

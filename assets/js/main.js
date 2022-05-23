@@ -1,4 +1,8 @@
 $(document).ready(function () {
+  $(".undefinedT").removeAttr("target");
+
+  console.log($(".undefinedT").attr("target"));
+
   $(".owl-one").owlCarousel({
     loop: true,
     margin: 30,
@@ -94,8 +98,33 @@ $(document).ready(function () {
     },
   });
 
+  
+  $(".instagramwb").mouseenter(function () {
+    $(".instagramwb").attr("src", "./assets/img/icon/instagramBj.png");
+  });
+
+    
+  $(".instagramwb").mouseleave(function () {
+    $(".instagramwb").attr("src", "./assets/img/icon/instagramWj.png");
+  });
+
+        
+  $(".facebookwj").mouseenter(function () {
+    $(".facebookwj").attr("src", "./assets/img/icon/facebookBj.png");
+  });
+
+      
+  $(".facebookwj").mouseleave(function () {
+    $(".facebookwj").attr("src", "./assets/img/icon/facebookWj.png");
+  });
+
+
   $(".facebookw").mouseenter(function () {
     $(".facebookw").attr("src", "./assets/img/icon/facebookwTwo.png");
+  });
+
+  $(".linkedin").mouseenter(function () {
+    $(".linkedin").attr("src", "./assets/img/icon/linkedinBJ.png");
   });
 
   $(".twitterw").mouseenter(function () {
@@ -109,6 +138,11 @@ $(document).ready(function () {
   $(".piterestw").mouseenter(function () {
     $(".piterestw").attr("src", "./assets/img/icon/pinterestwTwo.png");
   });
+
+  $(".linkedin").mouseleave(function () {
+    $(".linkedin").attr("src", "./assets/img/icon/linkedinWJ.png");
+  });
+
 
   $(".facebookw").mouseleave(function () {
     $(".facebookw").attr("src", "./assets/img/icon/facebookW.png");
@@ -128,52 +162,42 @@ $(document).ready(function () {
 
   $(".area").mouseenter(function () {
     $(".discort", this).attr("src", "./assets/img/icon/discortB.png");
-    $("p", this).css("color", "#7C89FF");
   });
 
   $(".area").mouseleave(function () {
     $(".discort", this).attr("src", "./assets/img/icon/discort.png");
-    $("p", this).css("color", "white");
   });
 
   $(".area").mouseenter(function () {
     $(".twitter", this).attr("src", "./assets/img/icon/twitterB.png");
-    $("p", this).css("color", "#7C89FF");
   });
 
   $(".area").mouseleave(function () {
     $(".twitter", this).attr("src", "./assets/img/icon/twitter.png");
-    $("p", this).css("color", "white");
   });
 
   $(".area").mouseenter(function () {
     $(".telegram", this).attr("src", "./assets/img/icon/telegramB.png");
-    $("p", this).css("color", "#7C89FF");
   });
 
   $(".area").mouseleave(function () {
     $(".telegram", this).attr("src", "./assets/img/icon/telegram.png");
-    $("p", this).css("color", "white");
   });
 
   $(".area").mouseenter(function () {
     $(".youtube", this).attr("src", "./assets/img/icon/youtubeB.png");
-    $("p", this).css("color", "#7C89FF");
   });
 
   $(".area").mouseleave(function () {
     $(".youtube", this).attr("src", "./assets/img/icon/youtube.png");
-    $("p", this).css("color", "white");
   });
 
   $(".area").mouseenter(function () {
     $(".reddit", this).attr("src", "./assets/img/icon/redditB.png");
-    $("p", this).css("color", "#7C89FF");
   });
 
   $(".area").mouseleave(function () {
     $(".reddit", this).attr("src", "./assets/img/icon/reddit.png");
-    $("p", this).css("color", "white");
   });
 
   var a = $(".slidearea").width();

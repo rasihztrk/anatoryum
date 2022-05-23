@@ -60,13 +60,13 @@
                                     <a class="nav-link" href="./#socialArea">Community</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link cursorS" href="">FAQ</a>
+                                    <a class="nav-link cursorS " href="">FAQ</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="blogs.php">Blog</a>
                                 </li>
                                 <li>
-                                    <button class="tradeOn">Trade On Anatoryum</button>
+                                    <button class="tradeOn">Trade On Anatolia</button>
                                 </li>
                             </ul>
                         </div>

@@ -32,17 +32,14 @@
             <li class="longText">Stay connected with us and let's know more about cryptocurrency and more explorer us on
               this</li>
             <li clas>
-              <a href="">
+              <a href="https://www.facebook.com/Antoryum-115902641121662">
                 <img class="facebookw" src="./assets/img/icon/facebookW.png" alt="">
               </a>
-              <a href="">
+              <a href="https://twitter.com/anatoIiapro">
                 <img class="twitterw" src="./assets/img/icon/twitterW.png" alt="">
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/anatoliapro/">
                 <img class="instagramw" src="./assets/img/icon/instagramW.png" alt="">
-              </a>
-              <a href="">
-                <img class="piterestw" src="./assets/img/icon/pinterestW.png" alt="">
               </a>
             </li>
           </ul>

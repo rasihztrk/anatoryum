@@ -21,12 +21,12 @@
       <div class="row">
         <div class="col-12 col-lg-8 col-xl-6">
           <div class="hoodAreaFirst">
-            <p>Unlimited Decentralized <br> Finance Markets for <br> Futures.</p>
-            <p>Create any financial market on Anatolia Protocol’s fast, cross-chain, low free, secure, and fully
-              decentralized exchange protocol.</p>
+          
+            <p>Creating a truly free and decentralized financial network for everyone.</p>
+            <p>Create any financial market on Anatolia Protocol’s fast, cross-chain, low free, secure and fully centralized / decentralized exchange protocol.</p>
             <div class="buttonArea">
               <button class="tradeOn">Trade on Anatolia Protocol</button>
-              <a href="">
+              <a href="https://discord.gg/XfusSdY7" target="_blank">
                 <button>Join Discord</button>
               </a>
             </div>
@@ -445,41 +445,60 @@
         <div class="col-12">
           <div class="socialAreaItems">
             <div class="area">
-              <a href="">
+              <a href="https://discord.gg/XfusSdY7" target="_blank">
                 <img class="discort" src="./assets/img/icon/discort.png" alt="">
-                <p class="textSpecial">discord</p>
               </a>
             </div>
             <div class="area">
-              <a href="">
+              <a href="https://twitter.com/anatoIiapro" target="_blank">
                 <img class="twitter" src="./assets/img/icon/twitter.png" alt="">
-                <p class="textSpecial">twitter</p>
               </a>
             </div>
             <div class="area">
-              <a href="">
+              <a href="https://t.me/anatoliapro" target="_blank">
                 <img class="telegram" src="./assets/img/icon/telegram.png" alt="">
-                <p class="textSpecial">telegram</p>
               </a>
             </div>
             <div class="area">
-              <a href="">
+              <a href="https://www.youtube.com/channel/UCvSs9pa3MtnU7VLypWMCeAA" target="_blank" >
                 <img class="youtube" src="./assets/img/icon/youtube.png" alt="">
-                <p class="textSpecial">youtube</p>
               </a>
             </div>
-            <div class="area d-none d-sm-block">
-              <a href="">
+            <div class="area">
+              <a href="https://www.reddit.com/user/anatoliapro" target="_blank">
                 <img class="reddit" src="./assets/img/icon/reddit.png" alt="">
-                <p class="textSpecial">reddit</p>
+              </a>
+            </div>
+            <div class="area d-block d-lg-none">
+              <a href="https://www.facebook.com/Antoryum-115902641121662" target="_blank">
+                <img class="facebookwj " src="./assets/img/icon/facebookWJ.png" alt="">
+              </a>
+            </div>
+            <div class="area d-block d-lg-none">
+              <a href="https://www.instagram.com/anatoliapro/" target="_blank">
+                <img class="instagramwb" src="./assets/img/icon/instagramWj.png" alt="">
+              </a>
+            </div>
+            <div class="area d-block d-lg-none">
+              <a href="https://www.linkedin.com/in/a-p-49963823b/" target="_blank">
+                <img class="linkedin" src="./assets/img/icon/linkedinWJ.png" alt="">
               </a>
             </div>
           </div>
-          <div class="noneAreaMB">
-            <div class="area d-block d-sm-none">
-              <a href="">
-                <img class="reddit" src="./assets/img/icon/reddit.png" alt="">
-                <p class="textSpecial">reddit</p>
+          <div class="socialAreaItemsTwo ">
+            <div class="area endJoin">
+              <a href="https://www.facebook.com/Antoryum-115902641121662" target="_blank">
+                <img class="facebookwj " src="./assets/img/icon/facebookWJ.png" alt="">
+              </a>
+            </div>
+            <div class="area">
+              <a href="https://www.instagram.com/anatoliapro/" target="_blank">
+                <img class="instagramwb" src="./assets/img/icon/instagramWj.png" alt="">
+              </a>
+            </div>
+            <div class="area startJ">
+              <a href="https://www.linkedin.com/in/a-p-49963823b/" target="_blank">
+                <img class="linkedin" src="./assets/img/icon/linkedinWJ.png" alt="">
               </a>
             </div>
           </div>
